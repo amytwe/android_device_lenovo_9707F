@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/lenovo/TB-9707F
+DEVICE_PATH := device/lenovo/9707F
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true

@@ -11,7 +11,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 # Inherit from TB-9707F device
 $(call inherit-product, device/lenovo/9707F/device.mk)
 
-PRODUCT_DEVICE := TB-9707F
+PRODUCT_DEVICE := 9707F
 PRODUCT_NAME := twrp_9707F
 PRODUCT_BRAND := Lenovo
 PRODUCT_MODEL := Lenovo TB-9707F

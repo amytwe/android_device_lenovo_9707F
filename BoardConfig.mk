@@ -142,6 +142,7 @@ TW_NO_EXFAT_FUSE := true
 TW_DEFAULT_BRIGHTNESS := 100
 TW_HAS_EDL_MODE := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
+TW_FRAMERATE := 60
 
 # TWRP Debug Flags
 TARGET_USES_LOGD := true

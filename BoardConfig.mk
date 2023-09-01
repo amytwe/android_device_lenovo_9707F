@@ -108,9 +108,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 TARGET_RECOVERY_DEVICE_MODULES += \
     libion \
-    libxml2 \
-	vendor.display.config@1.0 \
-	vendor.display.config@2.0
+    libxml2
 
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-08-01
@@ -126,9 +124,8 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 # TWRP Configuration
 RECOVERY_LIBRARY_SOURCE_FILES += \
     $(TARGET_OUT_SHARED_LIBRARIES)/libion.so \
-    $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so \
-    $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/vendor.display.config@1.0.so \
-    $(TARGET_OUT_SYSTEM_EXT_SHARED_LIBRARIES)/vendor.display.config@2.0.so
+    $(TARGET_OUT_SHARED_LIBRARIES)/libxml2.so
+
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
 TW_INPUT_BLACKLIST := "hbtp_vm"

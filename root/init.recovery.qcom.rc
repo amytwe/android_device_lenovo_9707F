@@ -12,4 +12,8 @@ on post-fs
     start boot-hal-1-1
 
 on boot
+    # Hack to fix drm graphics init
+    wait /tmp/recovery.log
+    stop recovery
+    start recovery
     start health-hal-2-1
